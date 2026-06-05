@@ -15,6 +15,7 @@ import (
 	"github.com/multiversx/mx-chain-storage-go/common"
 	"github.com/multiversx/mx-chain-storage-go/types"
 	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/syndtr/goleveldb/leveldb/filter"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )
 
@@ -35,7 +36,7 @@ type SerialDB struct {
 
 // NewSerialDB is a constructor for the leveldb persister
 // It creates the files in the location given as parameter
-func NewSerialDB(path string, batchDelaySeconds int, maxBatchSize int, maxOpenFiles int) (s *SerialDB, err error) {
+func NewSerialDB(path string, batchDelaySeconds int, maxBatchSize int, maxOpenFiles int, bloomFilterSize int) (s *SerialDB, err error) {
 	constructorName := "NewSerialDB"
 
 	sw := core.NewStopWatch()
@@ -56,6 +57,9 @@ func NewSerialDB(path string, batchDelaySeconds int, maxBatchSize int, maxOpenFi
 		// disable internal cache
 		BlockCacheCapacity:     -1,
 		OpenFilesCacheCapacity: maxOpenFiles,
+	}
+	if bloomFilterSize > 0 {
+		options.Filter = filter.NewBloomFilter(bloomFilterSize)
 	}
 
 	sw.Start(openLevelDBFunction)
