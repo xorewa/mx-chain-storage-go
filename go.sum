@@ -76,8 +76,12 @@ github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d h1:vfofYNRScrDd
 github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d/go.mod h1:RRCYJbIwD5jmqPI9XoAFR0OcDxqUctll6zUj/+B4S48=
 github.com/xorewa/mx-chain-core-go v0.0.0-20260622185646-a558edf5ceda h1:0A0rGEgeKlaQQHONiAUxN/DQMzSFraONLm0IviiXmo8=
 github.com/xorewa/mx-chain-core-go v0.0.0-20260622185646-a558edf5ceda/go.mod h1:nx8HPC1fvHcXGXNAUQaMXNQWSMgSWcqST+Od76tuCeI=
+github.com/xorewa/mx-chain-core-go v0.0.0-20260726052636-57c2876d270c h1:Yl99iRPzZ2zk9IoEE2iAsQ6rDDSxSNRwjbJmGMo229I=
+github.com/xorewa/mx-chain-core-go v0.0.0-20260726052636-57c2876d270c/go.mod h1:nx8HPC1fvHcXGXNAUQaMXNQWSMgSWcqST+Od76tuCeI=
 github.com/xorewa/mx-chain-logger-go v0.0.0-20260630161826-04c5818227ed h1:V5EqfNqAzwcdgPxpXkC4C0sIzT6FttNRY3zABiQsghc=
 github.com/xorewa/mx-chain-logger-go v0.0.0-20260630161826-04c5818227ed/go.mod h1:tYYGwoIUG2TVmhyXI4Zp9s3VWzxqEUgBhjXAMx3vzVc=
+github.com/xorewa/mx-chain-logger-go v0.0.0-20260726053317-c1b77dfb4fe7 h1:x7d3G62tPPffWOEyS5LU07tGRDL+CvmsOOlo0wkR3Xg=
+github.com/xorewa/mx-chain-logger-go v0.0.0-20260726053317-c1b77dfb4fe7/go.mod h1:lbbxLl4p1Z0ZvymL/8sqL/8ixRjD2RG+6jdnye7nZMM=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
