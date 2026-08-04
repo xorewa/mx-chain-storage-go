@@ -1,6 +1,6 @@
 module github.com/multiversx/mx-chain-storage-go
 
-go 1.26
+go 1.26.2
 
 require (
 	github.com/hashicorp/golang-lru v0.6.0
