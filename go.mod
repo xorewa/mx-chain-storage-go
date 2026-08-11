@@ -29,3 +29,5 @@ require (
 replace github.com/multiversx/mx-chain-core-go => github.com/xorewa/mx-chain-core-go v0.0.0-20260804130641-8340309cd696
 
 replace github.com/multiversx/mx-chain-logger-go => github.com/xorewa/mx-chain-logger-go v0.0.0-20260804131017-9f0e946f3e2c
+
+replace github.com/multiversx/concurrent-map => github.com/xorewa/concurrent-map v0.0.0-20260811090152-c00ff30c0c2e
